@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+}
+
+section {
+    height: 500px;
+    background: yellowgreen;    
+}
+
+.hero {
+    background: whitesmoke;
+    height : 100vh;
+    color : rgb(2, 32, 39);
+    font-size: 40px;
+}
+
+footer {
+    background: gray;
+    height: 500 px;
+}
+
+navbar {
+display: flex;
+background-color: lightseagreen;
+justify-content: space-between;
+color: rgb(0, 0, 0);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font: size 30px;
+}
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+}
+
+.herotext {
+    margin-left: 100px;
+}
+
+h1 {
+    justify-content: center;
+}
