@@ -3,30 +3,24 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-section {
-    height: 500px;
-    background: yellowgreen;    
-}
-
 .hero {
     background: whitesmoke;
-    height : 100vh;
+    height : 90vh;
     color : rgb(2, 32, 39);
     font-size: 40px;
 }
 
 footer {
-    background: gray;
-    height: 500 px;
+    background: lightsteelblue;
+    height: 60px;
 }
 
 navbar {
 display: flex;
-background-color: lightseagreen;
+background-color: lightsteelblue;
 justify-content: space-between;
 color: rgb(0, 0, 0);
 height: 90px;
-/* margin-bottom: 15px; */ 
 }
 
 .logo {
@@ -36,9 +30,9 @@ height: 90px;
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    width: 600px;
     justify-content: space-around;
-    font-size: 25px;
+    font-size: 20px;
     font-weight:bold;
 }
 
@@ -46,21 +40,21 @@ li {
     text-decoration: none;
 }
 
-.hero{
-    margin-bottom: 40px;
-}
 .herotext {
     padding-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
     margin-left: 50px;
     font-size: x-large;
     display: flex;
-    height: 100%;
+    height: 80%;
     justify-content: space-between;
     align-items: center;
 }
 
 .heroarea {
 margin:0 px;
+padding: 0 px;
 }
 
 h1 {
@@ -78,7 +72,6 @@ border-radius: 5px;
 text-align: center;
 font-weight:bolder;
 font-family: 'Courier New', Courier, monospace;
-
 }
 
 button:hover {
@@ -92,7 +85,7 @@ background-color: lightseagreen;
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 35px;
     padding: 0;
     margin: 0;
 }
@@ -100,16 +93,52 @@ h2 {
 .sub-section{
     display:flex;
     justify-content: space-around;
-    padding: 80px;
+    padding: 60px;
     /* margin-top: 100px; */
 }
 
 .info {
     margin-top: 10px;
+    margin-right: 15px;
 }
 
 .profile {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
+    margin-left: 5px;
+}
+
+.project-container {
+    display: flex;
+}
+ 
+.sub-section {
+    height: 230px;
+    background: rgb(185, 223, 185)
+}
+
+.projects {
+    height:350px;
+    background-color: whitesmoke;
+    padding-top: 40px;
+}
+
+.project-card{
+    height: 250px;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+    display: flex;
+    border: 2px solid;
+}
+
+.second{
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
