@@ -180,6 +180,7 @@ h4 {
 .text {
     margin-bottom: 15px;
     margin-top: 30px;
+    font-size: large;
 }
 
 .card1:hover {
@@ -243,8 +244,8 @@ h4 {
     margin-top: 5px;
     margin-bottom: 4px;
     padding: 0;
-    font-size: medium;
-    font-weight: 900;
+    font-size: large;
+    font-weight: bolder;
 }
 
 .Link1 {
@@ -257,13 +258,14 @@ h4 {
 
 .footerText {
     text-align: center;
-    font-size: small;
-    padding-top: 8px;
+    font-size: medium;
+    padding-top: 8.5px;
+    padding-bottom: 8px;
 }
 
 footer {
     background: lightseagreen;
-    height: 8vh;
+    height: 10vh;
 }
 
 a {
