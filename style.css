@@ -46,13 +46,13 @@ li {
     height: 80%;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 80%;
 }
 
 .heroarea {
     margin: 0 px;
     padding-top: 20 px;
-    width: 90%;
+    width: 75%;
 }
 
 h1 {
@@ -83,7 +83,7 @@ button:hover {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     padding: 0;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -98,12 +98,10 @@ h2 {
     padding-top: 65px;
     width: 85%;
     margin:rgb(208, 225, 227) 2px;
-
-
 }
 
 .info {
-width: 60%;
+width: 50%;
 font-size: larger;
 }
 
@@ -117,9 +115,10 @@ font-size: larger;
 
 .project-container {
     display: flex;
-    margin-top: 35px;
-    margin-bottom: 5px;
-    padding: 0;
+  align-items: center;
+    flex-direction: column;
+    width: 95.5%;
+    height: 100%;
 }
 
 .sub-section {
@@ -128,27 +127,29 @@ font-size: larger;
 }
 
 .projects {
-    height: 48vh;
+    height: 90vh;
     background-color: whitesmoke;
     padding-top: 40px;
 }
 
+h4 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 6%;
+    margin-top: 0;
+}
 .project-card {
-    height: 180px;
-    width: 30%;
+    height: 40%;
+    width: 40%;
     justify-content: center;
     align-items: center;
     margin-left: 1.5px;
     margin-right: 1.5px;
-    font-size: smaller;
-    display: flex;
+    font-size: large;
     border: 2px solid;
-    flex-direction: column;
     margin-bottom: 10px;
-}
-
-.project-section{
-    margin-left: 30px;
+    margin-top: 10px;
 }
 
 .second {
@@ -170,8 +171,8 @@ font-size: larger;
 }
 
 .text {
-    margin-bottom: 5px;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 
 .card1:hover {
@@ -242,15 +243,10 @@ font-size: larger;
 .Link1 {
     color: blueviolet;
     text-decoration: none;
-    margin-top: 3px;
-    margin-bottom: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     font-size: medium;
-}
-
-h3 {
-    margin-left: 40%;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    padding-right: 5%;
 }
 
 .footerText {
