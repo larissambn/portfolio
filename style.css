@@ -128,12 +128,6 @@ h2 {
     height: 50vh;
     background-color: whitesmoke;
     padding-top: 40px;
-    margin-bottom: 10px;
-}
-
-.project-section {
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 .project-card {
@@ -248,7 +242,8 @@ h2 {
 
 h3 {
     margin-left: 40%;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .footerText {
