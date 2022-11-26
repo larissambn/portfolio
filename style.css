@@ -138,7 +138,9 @@ h4 {
     font-weight: bolder;
     margin-bottom: 6%;
     margin-top: 0;
+    margin-right: 15px;
 }
+
 .project-card {
     height: 40%;
     width: 40%;
@@ -243,17 +245,15 @@ h4 {
 .Link1 {
     color: blueviolet;
     text-decoration: none;
-    margin-top: 2px;
-    margin-bottom: 2px;
     font-size: medium;
-    padding-right: 5%;
+    margin-left: 40%;
+    margin-bottom: 15px;
 }
 
 .footerText {
     text-align: center;
     font-size: small;
     padding-top: 8px;
-    margin-left: 5%;
 }
 
 footer {
