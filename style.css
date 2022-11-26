@@ -5,22 +5,22 @@ body {
 
 .hero {
     background: whitesmoke;
-    height : 90vh;
-    color : rgb(2, 32, 39);
+    height: 90vh;
+    color: rgb(2, 32, 39);
     font-size: 40px;
 }
 
 footer {
     background: lightsteelblue;
-    height: 60px;
+    height: 10vh;
 }
 
 navbar {
-display: flex;
-background-color: lightsteelblue;
-justify-content: space-between;
-color: rgb(0, 0, 0);
-height: 90px;
+    display: flex;
+    background-color: lightsteelblue;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    height: 90px;
 }
 
 .logo {
@@ -33,7 +33,7 @@ ul {
     width: 600px;
     justify-content: space-around;
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 li {
@@ -53,8 +53,8 @@ li {
 }
 
 .heroarea {
-margin:0 px;
-padding: 0 px;
+    margin: 0 px;
+    padding: 0 px;
 }
 
 h1 {
@@ -65,17 +65,17 @@ h1 {
 }
 
 button {
-background-color:coral;
-height: 40px;
-width: 100px;
-border-radius: 5px;
-text-align: center;
-font-weight:bolder;
-font-family: 'Courier New', Courier, monospace;
+    background-color: coral;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 button:hover {
-background-color: lightseagreen; 
+    background-color: lightseagreen;
 }
 
 .social {
@@ -87,14 +87,16 @@ background-color: lightseagreen;
 h2 {
     font-size: 35px;
     padding: 0;
-    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.sub-section{
-    display:flex;
+.sub-section {
+    display: flex;
     justify-content: space-around;
     padding: 60px;
-    /* margin-top: 100px; */
 }
 
 .info {
@@ -111,34 +113,146 @@ h2 {
 
 .project-container {
     display: flex;
+    margin-left: 22.5px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    padding: 0;
 }
- 
+
 .sub-section {
-    height: 230px;
+    height: 30vh;
     background: rgb(185, 223, 185)
 }
 
 .projects {
-    height:350px;
+    height: 50vh;
     background-color: whitesmoke;
     padding-top: 40px;
+    margin-bottom: 10px;
 }
 
-.project-card{
-    height: 250px;
-    width: 75%;
+.project-section {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.project-card {
+    height: 180px;
+    width: 30%;
     justify-content: center;
     align-items: center;
-    padding-top: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: x-large;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    font-size: smaller;
     display: flex;
     border: 2px solid;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
-.second{
-    margin-bottom: 10px;
+.second {
+    font-size: 35px;
+    margin-left: 52px;
+    margin-bottom: 20px;
     justify-content: center;
-    align-items: center;
+    font-weight: bolder;
+}
+
+.card1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 140px;
+    font-size: medium;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.text {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.card1:hover {
+    background-image: url(./src/HPgame.PNG);
+    background-size: 100%;
+    height: fit-content;
+    width: fit-content;
+    color: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 120px;
+    margin-bottom: 5px;
+}
+
+.card2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 135px;
+    font-size: medium;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.card2:hover {
+    background-image: url(./src/tswpic.PNG);
+    background-size: 100%;
+    height: fit-content;
+    width: fit-content;
+    color: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.card3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 135px;
+    font-size: medium;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.card3:hover {
+    background-image: url(./src/tranquili_tea_pic.PNG);
+    background-size: 100%;
+    height: fit-content;
+    width: fit-content;
+    color: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 105px;
+    margin-bottom: 5px;
+}
+
+.h5 {
+    margin: 2px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    padding: 0;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.Link1 {
+    color: blueviolet;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    font-size: medium;
+}
+
+h3 {
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+
+.footerText {
+    text-align: center;
+    font-size: small;
+    padding-top: 10px;
 }
