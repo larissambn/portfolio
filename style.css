@@ -40,19 +40,17 @@ li {
     padding-bottom: 5px;
     margin-bottom: 0px;
     margin-left: 30px;
-    margin-right: 0px;
     font-size: x-large;
     display: flex;
     height: 80%;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 85%;
 }
 
 .heroarea {
-    margin: 0 px;
     padding-top: 20 px;
-    width: 75%;
+    width: 80%;
 }
 
 h1 {
@@ -83,7 +81,7 @@ button:hover {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: larger;
     padding: 0;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -94,15 +92,16 @@ h2 {
 .aboutMe{
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding: 0;
     padding-top: 65px;
-    width: 85%;
-    margin:rgb(208, 225, 227) 2px;
+    width: 100%;
+    margin-left: 30px;
+    font-size: larger;
 }
 
 .info {
 width: 50%;
-font-size: larger;
+font-size: large;
 }
 
 .profilePic {
@@ -113,16 +112,23 @@ font-size: larger;
     margin-top: 50px;
 }
 
+.pic{
+    padding-right: 5px;
+}
+
 .project-container {
     display: flex;
   align-items: center;
     flex-direction: column;
-    width: 95.5%;
+    width: 100%;
     height: 100%;
 }
 
 .sub-section {
-    height: 55vh;
+    height: 45.5vh;
+}
+
+.sub-section:hover {
     background: rgb(208, 225, 227);
 }
 
@@ -138,7 +144,6 @@ h4 {
     font-weight: bolder;
     margin-bottom: 6%;
     margin-top: 0;
-    margin-right: 15px;
 }
 
 .project-card {
