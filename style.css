@@ -10,14 +10,9 @@ body {
     font-size: 40px;
 }
 
-footer {
-    background: lightsteelblue;
-    height: 10vh;
-}
-
 navbar {
     display: flex;
-    background-color: lightsteelblue;
+    background-color: lightseagreen;
     justify-content: space-between;
     color: rgb(0, 0, 0);
     height: 90px;
@@ -41,25 +36,28 @@ li {
 }
 
 .herotext {
-    padding-top: 0px;
+    padding: 0px;
     padding-bottom: 5px;
     margin-bottom: 0px;
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-right: 0px;
     font-size: x-large;
     display: flex;
     height: 80%;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
 }
 
 .heroarea {
     margin: 0 px;
-    padding: 0 px;
+    padding-top: 20 px;
+    width: 90%;
 }
 
 h1 {
-    justify-content: center;
-    font-size: 70px;
+    text-align:justify;
+    font-size: 65px;
     font-weight: bolder;
     margin: 0px;
 }
@@ -71,6 +69,7 @@ button {
     border-radius: 5px;
     text-align: center;
     font-weight: bolder;
+    margin-top: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -81,11 +80,10 @@ button:hover {
 .social {
     flex-direction: column;
     display: flex;
-    margin-right: 15px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 30px;
     padding: 0;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -93,39 +91,44 @@ h2 {
     align-items: center;
 }
 
-.sub-section {
+.aboutMe{
     display: flex;
-    justify-content: space-around;
-    padding: 60px;
+    flex-direction: row;
+    padding: 30px;
+    padding-top: 65px;
+    width: 85%;
+    margin:rgb(208, 225, 227) 2px;
+
+
 }
 
 .info {
-    margin-top: 10px;
-    margin-right: 15px;
+width: 60%;
+font-size: larger;
 }
 
-.profile {
-    height: 130px;
-    width: 130px;
+.profilePic {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-top: 50px;
 }
 
 .project-container {
     display: flex;
-    margin-left: 22.5px;
     margin-top: 35px;
     margin-bottom: 5px;
     padding: 0;
 }
 
 .sub-section {
-    height: 30vh;
-    background: rgb(185, 223, 185)
+    height: 55vh;
+    background: rgb(208, 225, 227);
 }
 
 .projects {
-    height: 50vh;
+    height: 48vh;
     background-color: whitesmoke;
     padding-top: 40px;
 }
@@ -142,6 +145,10 @@ h2 {
     border: 2px solid;
     flex-direction: column;
     margin-bottom: 10px;
+}
+
+.project-section{
+    margin-left: 30px;
 }
 
 .second {
@@ -243,11 +250,22 @@ h2 {
 h3 {
     margin-left: 40%;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .footerText {
     text-align: center;
     font-size: small;
-    padding-top: 10px;
+    padding-top: 8px;
+    margin-left: 5%;
+}
+
+footer {
+    background: lightseagreen;
+    height: 8vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
